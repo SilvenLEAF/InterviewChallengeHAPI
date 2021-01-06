@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/SilvenLEAF/InterviewChallengeHAPI/issues"
   },
-  "homepage": "https://github.com/SilvenLEAF/InterviewChallengeHAPI#readme"
+  "homepage": "https://github.com/SilvenLEAF/InterviewChallengeHAPI#readme",
+  "dependencies": {
+    "hapi": "^18.1.0",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
