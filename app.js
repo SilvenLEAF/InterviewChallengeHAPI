@@ -97,7 +97,7 @@ server.route({
       const movieDetailsRes = await fetch(`${ process.env.ROOT_API_URL }/movie/${ request.params.id }?api_key=${ process.env.API_KEY }`)
       const movieDetailsData = await movieDetailsRes.json()
   
-      res.json(movieDetailsData);
+      movieDetailsData;
   
     
   
