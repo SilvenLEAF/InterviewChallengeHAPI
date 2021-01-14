@@ -4,7 +4,8 @@
   "description": "Hi there! It's an interview challenge to create a happy and cheerful server that'll send back movie data.",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js", 
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
